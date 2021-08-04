@@ -50,10 +50,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const menuItems = [
-  { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath:'/contact' },
+  { listIcon: <Home />, listText: "Inicio", listPath: "/" },
+  { listIcon: <AssignmentInd />, listText: "Resumen", listPath: "/resume" },
+  { listIcon: <Apps />, listText: "Proyectos", listPath: "/portfolio" },
+  { listIcon: <ContactMail />, listText: "Contacto", listPath:'/contact' },
 ];
 
 const Navbar = () => {
@@ -63,7 +63,7 @@ const Navbar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+      <Avatar className={classes.avatar} src={avatar} alt="Nicolas Irigoyen Terré" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (
