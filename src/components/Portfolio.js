@@ -43,23 +43,23 @@ const projects = [
     description: `Plataforma desarrollada en soyHeny como proyecto individual que permite al usuario filtrar paises segun su interes, consultar informacion detallada de un pais,
     como su actividad turistica y la posibilidad de crear una nueva actividad`,
     image: countriesapp,
-    link: 'https://countriesapp23.herokuapp.com/',
-    code: 'https://github.com/nicoirigoyen/Countries-App'
+    VIVO: 'https://countriesapp23.herokuapp.com/',
+    Github: 'https://github.com/nicoirigoyen/Countries-App'
   },
   {
     name: "Breacking Bad App",
     description: `Es una pequeña plataforma de la popular serie Breacking Bad que permite al usuario filtrar y consultar informacion
     detallada de un personajes en particular, ademas de consultar capitulos y temporadas de la serie.`,
     image: breackingbadapp,
-    link: 'https://infobreakingbad.netlify.app/',
-    code:'https://github.com/nicoirigoyen/BreackingBad-App'
+    VIVO: 'https://infobreakingbad.netlify.app/',
+    Github:'https://github.com/nicoirigoyen/BreackingBad-App'
   },
   {
     name: "Weather App",
     description: `Clasica aplicacion de clima desarrolada con React que permite al usuario filtrar un pais en particular y consultar informacion detallada del Clima `,
     image: weatherapp,
-    link: 'https://infooweatherapp.netlify.app',
-    code:'https://github.com/nicoirigoyen/Weather-App'
+    VIVO: 'https://infooweatherapp.netlify.app',
+    Github:'https://github.com/nicoirigoyen/Weather-App'
   },
   // {
   //   name: "Movies App",
