@@ -43,7 +43,7 @@ const projects = [
     description: `Plataforma desarrollada en soyHeny como proyecto individual que permite al usuario filtrar paises segun su interes, consultar informacion detallada de un pais,
     como su actividad turistica y la posibilidad de crear una nueva actividad`,
     image: countriesapp,
-    VIVO: 'https://countriesapp23.herokuapp.com/',
+    link: 'https://countriesapp23.herokuapp.com/',
     Github: 'https://github.com/nicoirigoyen/Countries-App'
   },
   {
@@ -51,14 +51,14 @@ const projects = [
     description: `Es una pequeña plataforma de la popular serie Breacking Bad que permite al usuario filtrar y consultar informacion
     detallada de un personajes en particular, ademas de consultar capitulos y temporadas de la serie.`,
     image: breackingbadapp,
-    VIVO: 'https://infobreakingbad.netlify.app/',
+    link: 'https://infobreakingbad.netlify.app/',
     Github:'https://github.com/nicoirigoyen/BreackingBad-App'
   },
   {
     name: "Weather App",
     description: `Clasica aplicacion de clima desarrolada con React que permite al usuario filtrar un pais en particular y consultar informacion detallada del Clima `,
     image: weatherapp,
-    VIVO: 'https://infooweatherapp.netlify.app',
+    link: 'https://infooweatherapp.netlify.app',
     Github:'https://github.com/nicoirigoyen/Weather-App'
   },
   // {
@@ -102,8 +102,8 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button target="_blank" size="small" color="primary" href={project.VIVO}>
-                  VIVO
+                <Button target="_blank" size="small" color="primary" href={project.link}>
+                  Link
                 </Button>
                 <Button target="_blank" size="small" color="primary" href={project.Github}>
                   Code
