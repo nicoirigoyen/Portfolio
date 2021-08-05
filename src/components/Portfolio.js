@@ -102,10 +102,10 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button target="_blank" size="small" color="primary" href={project.link}>
-                  Link
+                <Button target="_blank" size="small" color="primary" href={project.VIVO}>
+                  VIVO
                 </Button>
-                <Button target="_blank" size="small" color="primary" href={project.code}>
+                <Button target="_blank" size="small" color="primary" href={project.Github}>
                   Code
                 </Button>
               </CardActions>
